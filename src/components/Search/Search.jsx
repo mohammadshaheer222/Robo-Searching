@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./Search.css";
-import { FaSearch } from "react-icons/fa";
+// import { FaSearch } from "react-icons/fa";
 
 class Search extends Component {
   constructor() {
@@ -14,9 +14,9 @@ class Search extends Component {
           <h1>
             ROBO <span style={{ color: "yellow" }}> HASH</span>
           </h1>
-          <i>
+          {/* <i>
             <FaSearch />
-          </i>
+          </i> */}
           <input
             type="search"
             placeholder="Search with name"
