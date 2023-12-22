@@ -1,0 +1,22 @@
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 20px;
+  }
+  .card {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(93, 89, 89);
+    cursor: pointer;
+    box-shadow: 0px 10px 9px rgb(47, 46, 46);
+    transition: 0.8s;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
